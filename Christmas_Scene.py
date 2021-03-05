@@ -1,0 +1,146 @@
+# Christmas_Scene.py
+
+from graphics import *
+
+def main():
+
+    win = GraphWin("Christmas Scene", 400, 400)
+    win.setBackground("blue")
+    
+    s3 = Circle(Point(100,350), 50)
+    s3.setFill("white")
+    s3.draw(win)
+    s2 = Circle(Point(100,260), 40)
+    s2.setFill("white")
+    s2.draw(win)
+    s1 = Circle(Point(100,190), 30)
+    s1.setFill("white")
+    s1.draw(win)
+    e1 = Circle(Point(94, 185), 3)
+    e1.setFill("black")
+    e1.draw(win)
+    e2 = Circle(Point(106, 185), 3)
+    e2.setFill("black")
+    e2.draw(win)
+    b1 = Circle(Point(100, 270), 5)
+    b1.setFill("black")
+    b1.draw(win)
+    b2 = Circle(Point(100, 290), 5)
+    b2.setFill("black")
+    b2.draw(win)
+    b3 = Circle(Point(100, 310), 5)
+    b3.setFill("black")
+    b3.draw(win)
+    nose = Polygon(Point(100, 190), Point(100, 200), Point(115, 193))
+    nose.setFill("orange")
+    nose.draw(win)
+    mouth = Polygon(Point(96, 205), Point(104, 205), Point(104,210), Point(94,210))
+    mouth.setFill("black")
+    mouth.draw(win)
+    
+    
+
+    label1 = Text(Point(150, 15), "Merry")
+    label1.setOutline("green")
+    label1.setSize(24)
+    label1.draw(win)
+
+    label2 = Text(Point(250, 15), "Christmas!")
+    label2.setOutline("red")
+    label2.setSize(24)
+    label2.draw(win)
+
+    tree = Polygon(Point(300, 175), Point(350,250), Point(250,250))
+    tree.setFill("green")
+    tree.draw(win)
+    tree2 = Polygon(Point(300, 225), Point(350,300), Point(250,300))
+    tree2.setFill("green")
+    tree2.draw(win)
+    tree3 = Polygon(Point(300, 275), Point(350, 350), Point(250,350))
+    tree3.setFill("green")
+    tree3.draw(win)
+
+    trunk = Polygon(Point(285, 350), Point(315, 350), Point(315, 400), Point(285, 400))
+    trunk.setFill("brown")
+    trunk.draw(win)
+    
+    ob1 = Circle(Point(305, 208), 7)
+    ob1.setFill("purple")
+    ob1.draw(win)
+    ob2 = Circle(Point(295, 308), 7)
+    ob2.setFill("red")
+    ob2.draw(win)
+    ob3 = Circle(Point(309, 265), 7)
+    ob3.setFill("orange")
+    ob3.draw(win)
+    ob4 = Circle(Point(310, 335), 7)
+    ob4.setFill("blue")
+    ob4.draw(win)
+    
+    hat = Polygon(Point(75,160), Point(125,160), Point(100,130)) 
+    hat.setFill("black")
+    hat.draw(win)
+    
+    arm1 = Polygon(Point(140, 260), Point(160,190))
+    arm1.setFill("brown")
+    arm1.draw(win)
+    arm2 = Polygon(Point(60, 260), Point(40, 190))
+    arm2.setFill("brown")
+    arm2.draw(win)
+    
+    
+
+
+    win.getMouse()
+    label1.setOutline("red")
+    label2.setOutline("green")
+    b1.setFill("red")
+    b2.setFill("green")
+    b3.setFill("red")
+    ob1.setFill("red")
+    ob2.setFill("purple")
+    ob3.setFill("blue")
+    ob4.setFill("orange")
+    win.setBackground("orange")
+    hat.setFill("purple")
+    snow1 = Circle(Point(100,50), 3)
+    snow1.setFill("white")
+    snow1.draw(win)
+    snow2 = Circle(Point(150, 45), 3)
+    snow2.setFill("white")
+    snow2.draw(win)
+    snow3 = Circle(Point(264, 75), 3)
+    snow3.setFill("white")
+    snow3.draw(win)
+    snow4 = Circle(Point(300, 55), 3)
+    snow4.setFill("white")
+    snow4.draw(win)
+    snow5 = Circle(Point(175, 100), 3)
+    snow5.setFill("white")
+    snow5.draw(win)
+    snow6 = Circle(Point(225, 175), 3)
+    snow6.setFill("white")
+    snow6.draw(win)
+    snow7 = Circle(Point(332, 122), 3)
+    snow7.setFill("white")
+    snow7.draw(win)
+    snow8 = Circle(Point(50, 122), 3)
+    snow8.setFill("white")
+    snow8.draw(win)
+    snow9 = Circle(Point(395, 322), 3)
+    snow9.setFill("white")
+    snow9.draw(win)              
+    snow10 = Circle(Point(200, 350), 3)
+    snow10.setFill("white")
+    snow10.draw(win)
+    
+    
+    
+    win.getMouse()
+    win.close()
+
+
+    
+main()
+
+                   
